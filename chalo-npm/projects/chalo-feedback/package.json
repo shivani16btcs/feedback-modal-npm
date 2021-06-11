@@ -1,0 +1,19 @@
+{
+  "name": "chalo-feedback",
+  "version": "0.0.7",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "gulp-autoprefixer": "^6.0.0",
+  "browserlist": "^1.0.1",
+  "scripts": {
+    "build": "ng-packagr -p package.json",
+    "postbuild": "ts-node ./scripts/css-bundle.ts"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ]
+}
