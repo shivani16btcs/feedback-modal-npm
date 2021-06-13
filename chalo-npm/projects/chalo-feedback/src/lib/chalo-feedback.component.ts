@@ -6,10 +6,8 @@ import { Component, OnInit ,Input} from '@angular/core';
 <style>
 
 .feedback-modal{
-    z-index: inherit 1000;
     position: absolute;
-    cursor: pointer;
-    /* position: fixed; */
+    z-index: 9;
     bottom: 23px;
     right: 28px;
     width: 280px;
