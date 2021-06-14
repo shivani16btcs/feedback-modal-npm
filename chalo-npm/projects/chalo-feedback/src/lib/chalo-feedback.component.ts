@@ -119,6 +119,7 @@ export class ChaloFeedbackComponent implements OnInit {
     let url='http://127.0.0.1:5500/feedback.html'
     let Url=url+'?email='+this.email+'&app='+this.app;
     window.open(Url, "_blank");
+    this.modalClose();
 }
 
 }
