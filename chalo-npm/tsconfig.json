@@ -18,6 +18,9 @@
       "dom"
     ],
     "paths": {
+      "@angular/*": [
+        "../node_modules/@angular/*"
+      ],
       "chalo-feedback-npm": [
         "dist/chalo-feedback-npm"
       ],
@@ -29,6 +32,24 @@
       ],
       "chalo-feedback/*": [
         "dist/chalo-feedback/*"
+      ],
+      "shivu-generic-filter": [
+        "dist/shivu-generic-filter"
+      ],
+      "shivu-generic-filter/*": [
+        "dist/shivu-generic-filter/*"
+      ],
+      "daffo-generic-filter": [
+        "dist/daffo-generic-filter"
+      ],
+      "daffo-generic-filter/*": [
+        "dist/daffo-generic-filter/*"
+      ],
+      "chalo-generic-filter": [
+        "dist/chalo-generic-filter"
+      ],
+      "chalo-generic-filter/*": [
+        "dist/chalo-generic-filter/*"
       ]
     }
   }

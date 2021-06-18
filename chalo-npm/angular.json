@@ -191,6 +191,111 @@
           }
         }
       }
+    },
+    "shivu-generic-filter": {
+      "root": "projects/shivu-generic-filter",
+      "sourceRoot": "projects/shivu-generic-filter/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/shivu-generic-filter/tsconfig.lib.json",
+            "project": "projects/shivu-generic-filter/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/shivu-generic-filter/src/test.ts",
+            "tsConfig": "projects/shivu-generic-filter/tsconfig.spec.json",
+            "karmaConfig": "projects/shivu-generic-filter/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/shivu-generic-filter/tsconfig.lib.json",
+              "projects/shivu-generic-filter/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "daffo-generic-filter": {
+      "root": "projects/daffo-generic-filter",
+      "sourceRoot": "projects/daffo-generic-filter/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/daffo-generic-filter/tsconfig.lib.json",
+            "project": "projects/daffo-generic-filter/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/daffo-generic-filter/src/test.ts",
+            "tsConfig": "projects/daffo-generic-filter/tsconfig.spec.json",
+            "karmaConfig": "projects/daffo-generic-filter/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/daffo-generic-filter/tsconfig.lib.json",
+              "projects/daffo-generic-filter/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "chalo-generic-filter": {
+      "root": "projects/chalo-generic-filter",
+      "sourceRoot": "projects/chalo-generic-filter/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/chalo-generic-filter/tsconfig.lib.json",
+            "project": "projects/chalo-generic-filter/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/chalo-generic-filter/src/test.ts",
+            "tsConfig": "projects/chalo-generic-filter/tsconfig.spec.json",
+            "karmaConfig": "projects/chalo-generic-filter/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/chalo-generic-filter/tsconfig.lib.json",
+              "projects/chalo-generic-filter/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "chalo-npm"
